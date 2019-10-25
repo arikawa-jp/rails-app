@@ -20,7 +20,7 @@ def create
   if request.post? then
     Person.create(person_params)
   end
-    redirect_to '/people'
+  redirect_to '/people'
 end
 
 def edit
